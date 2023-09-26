@@ -6,7 +6,7 @@ Formula 1 is a popular motorsport that generates a vast amount of data. This dat
 
 ## Solution Architecture
 
-![F1 solution diagram](https://github.com/Shakti93/formula1-project/assets/84408451/1d894c72-1462-4b31-b45a-531225bf750c)
+![F1 Solution Diagram](https://github.com/Shakti93/formula1-project/assets/84408451/73490a10-4d57-4908-8169-fa901a77ddab)
 
 
 
