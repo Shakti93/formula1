@@ -6,7 +6,8 @@ Formula 1 is a popular motorsport that generates a vast amount of data. This dat
 
 ## Solution Architecture
 
-![F1 solution diagram](https://github.com/Shakti93/formula1-project/assets/84408451/a5c1eb14-1917-4daf-ba09-f6ccd8f95025)
+![F1 solution diagram](https://github.com/Shakti93/formula1-project/assets/84408451/1d894c72-1462-4b31-b45a-531225bf750c)
+
 
 
 ## The ETL pipeline consists of the following components: 
