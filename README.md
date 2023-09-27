@@ -22,7 +22,7 @@ Formula 1 is a popular motorsport that generates a vast amount of data. This dat
 ## Implementation 
 The ETL pipeline was implemented using the following steps: 
 
-1. **Data Ingestion:**** The first pipeline extracts the files for a race ID from the SQL Server and stores them in an ADLS raw container in a race ID folder structure (Bronze layer). 
+1. **Data Ingestion:** The first pipeline extracts the files for a race ID from the SQL Server and stores them in an ADLS raw container in a race ID folder structure (Bronze layer). 
 2. **Data Processing:** The second pipeline executes the Databricks Processing Job. The job has 8 notebooks that read the individual raw files, clean and transform the data, and load the data into the processed database as delta tables using Upsert functionality (Silver layer).  
 3. **Data Transformation:** The third pipeline executes the Databricks Transformation Job. The processed data in Delta tables is joined and aggregated for analysis and visualization. The aggregated data is stored in the presentation database as delta tables. The presentation tables are – Race Results, Driver Standings, and Constructor Standings. 
 4. **Data Visualization:** The data is visualized using Power BI. The visualizations included charts, graphs, and tables that provided insights into the performance of teams and drivers. 
