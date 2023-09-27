@@ -10,7 +10,7 @@ Formula 1 is a popular motorsport that generates a vast amount of data. This dat
 
 
 
-## The ETL pipeline consists of the following components: 
+The ETL pipeline consists of the following components: 
 1. **Data Sources:** The data source for this pipeline is the SQL Server and Formula1 GitHub repository. The data sources contain files for races, results, constructors, drivers, circuits, lap times, pitstops, and qualifying data from the year 1950 to the latest race of 2023. 
 2. **Data Extraction:** The data is extracted from SQL Server and Github Repository using Azure Data Factory to Azure Data Lake Storage and stored in the raw container. 
 3. **Data Transformation:** The raw data is transformed using Azure Databricks. The transformation process includes data cleaning, data validation, and data enrichment. The transformed data is stored in ADLS. 
