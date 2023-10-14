@@ -36,11 +36,25 @@ The ETL pipeline was implemented using the following steps:
 ## Visualizations 
 The visualizations for the formula1 data include: 
 
-1. **Race Results:** The race results visualization provides information on the position of drivers in each race, the number of laps completed, and the time taken to complete the race. 
-2. **Driver Standings:** The driver standings visualization provides information on the position of drivers in the championship standings, the number of points earned, and the number of podium finishes. 
-3. **Team Standings:** The team standings visualization provides information on the position of teams in the championship standings, the number of points earned, and the number of podium finishes. 
-4. **Driver Performance:** The Driver Performance provides information on the performance of top drivers over time, including points scored, wins, and podium finishes. 
+1. **Race Results:** The race results visualization provides information on the position of drivers in each race, the number of laps completed, and the time taken to complete the race.
+
+![Race Results](https://github.com/Shakti93/formula1-project/assets/84408451/683c2e64-e9b1-4e24-b179-6f055970817c)
+
+2. **Driver Standings:** The driver standings visualization provides information on the position of drivers in the championship standings, the number of points earned, and the number of podium finishes.
+
+![Driver Standings](https://github.com/Shakti93/formula1-project/assets/84408451/b040b131-cca5-43f7-982b-d481adac450a)
+
+3. **Team Standings:** The team standings visualization provides information on the position of teams in the championship standings, the number of points earned, and the number of podium finishes.
+
+![Constructors Standings](https://github.com/Shakti93/formula1-project/assets/84408451/011287a9-3ba7-4a21-9384-82cba27821c1)
+
+4. **Driver Performance:** The Driver Performance provides information on the performance of top drivers over time, including points scored, wins, and podium finishes.
+
+![Dominating Driver](https://github.com/Shakti93/formula1-project/assets/84408451/9f2ec80b-b6f1-4788-ad45-3703529a0945)
+
 5. **Team Performance:** The Team Performance provides information on the performance of top constructors over time, including points scored, wins, and podium finishes. 
+
+![Dominating Teams](https://github.com/Shakti93/formula1-project/assets/84408451/1b24afd3-ea2e-44cf-b638-6d9117d2fbda)
 
 
 ## Conclusion 
